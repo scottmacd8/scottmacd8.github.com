@@ -14,7 +14,7 @@ if(!('backgroundBlendMode' in document.body.style)) {
 // make sure the nav always appears on desktop
 
 function displayNav(){
-    if ($(document).width()>=961 && !$('body').hasClass('url_index')) {
+    if ($(document).width()>=961 && !$('body').hasClass('home')) {
         $('.main-nav').show();
         $('.sub-nav').show();
         active = true;
@@ -138,7 +138,7 @@ function stickySidebar(){
 
 
 function removeHomeSubnav(){
-    if( $('body').hasClass('url_index') || $('body').hasClass('url_pages_contact_index') ){
+    if( $('body').hasClass('home') || $('body').hasClass('url_pages_contact_index') ){
         $('.sub-nav').remove();
     }
 }
