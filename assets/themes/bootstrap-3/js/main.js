@@ -138,7 +138,7 @@ function stickySidebar(){
 
 
 function removeHomeSubnav(){
-    if( $('body').hasClass('home') || $('body').hasClass('url_pages_contact_index') ){
+    if( $('body').hasClass('home') || $('body').hasClass('contact') ){
         $('.sub-nav').remove();
     }
 }

@@ -1,6 +1,7 @@
 ---
 layout: contact
 title: Contact
+tags: contact
 group: navigation
 weight: 50
 ---
