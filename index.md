@@ -1,7 +1,7 @@
 ---
 layout: home
-title: home
-tagline: Supporting tagline
+title: OpenHome
+tags: home
 ---
 {% include JB/setup %}
 
