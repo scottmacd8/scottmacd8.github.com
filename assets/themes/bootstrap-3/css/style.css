@@ -889,7 +889,7 @@ h1, h2, h3, h4 {
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   padding-top: 162px; }
-  .url_index .wrapper {
+  .home .wrapper {
     padding-top: 105px; }
   @media only screen and (max-width: 960px) {
     .wrapper {
@@ -912,19 +912,19 @@ h1, h2, h3, h4 {
   width: 100%;
   z-index: 8001;
   background-color: white; }
-  .url_index .site-header {
+  .home .site-header {
     background-color: transparent;
     position: absolute; }
   .site-header.scrolled {
     box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.3); }
-    .url_index .site-header.scrolled {
+    .home .site-header.scrolled {
       box-shadow: none; }
   @media only screen and (max-width: 960px) {
     .site-header {
       position: static; } }
   .site-header .inner {
     padding: 2.857142857em 0; }
-    .url_index .site-header .inner {
+    .home .site-header .inner {
       position: static; }
     @media only screen and (max-width: 960px) {
       .site-header .inner {
@@ -963,7 +963,7 @@ h1, h2, h3, h4 {
   letter-spacing: -.03em;
   background-color: white;
   padding-top: 0; }
-  .url_index .main-nav {
+  .home .main-nav {
     display: none;
     position: absolute;
     width: 100%;
@@ -988,7 +988,7 @@ h1, h2, h3, h4 {
       padding-bottom: .5em; } }
   .main-nav li {
     margin-left: 1.666666667em; }
-    .url_index .main-nav li {
+    .home .main-nav li {
       text-align: center;
       margin-bottom: 1.5em !important; }
     .main-nav li:first-child {
@@ -1013,7 +1013,7 @@ h1, h2, h3, h4 {
 .sub-nav {
   background: #F1F1F1;
   padding: 1.25em 0 1.4em; }
-  .url_index .sub-nav, .url_pages_contact_index .sub-nav {
+  .home .sub-nav, .url_pages_contact_index .sub-nav {
     display: none; }
   @media only screen and (max-width: 960px) {
     .sub-nav {
@@ -1039,7 +1039,7 @@ h1, h2, h3, h4 {
   top: 40px;
   right: 6.34920635%;
   z-index: 8003; }
-  .url_index .hamburger {
+  .home .hamburger {
     display: block; }
   @media only screen and (max-width: 960px) {
     .hamburger {
@@ -1191,13 +1191,13 @@ h1, h2, h3, h4 {
         line-height: 1.2em;
         width: 87.3015873%; } }
 
-.url_index main.content {
+.home main.content {
   background-image: url(../bootstrap/img/bg-intro.svg);
   background-position: center -320px;
   background-repeat: no-repeat;
   margin-top: 0;
   padding-top: 4.285714286em; }
-  .no-svg .url_index main.content {
+  .no-svg .home main.content {
     background-image: url(../bootstrap/img/bg-intro.png); }
 .url_pages_contact_index main.content {
   background-image: url(../bootstrap/img/bg-contact.svg);
@@ -1657,7 +1657,7 @@ h1, h2, h3, h4 {
     margin-right: 0;
     margin-bottom: 2.5em;
     width: 100%; } }
-.url_index .bd-block-list > li {
+.home .bd-block-list > li {
   float: none;
   display: block;
   margin-left: 0 !important;
